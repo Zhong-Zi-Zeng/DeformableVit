@@ -2,7 +2,15 @@
 Use a deformable transformer to do the classification on the cifar-100 dataset.
 
 ## How to run the code
-``` 
+1. Install MSDAttention
+  ```
+    cd models/ops
+    python setup.py build install
+  ```
+If you install it successfully, some files will appear under the ops directory.
+
+2. Train model
+```
   python Train.py
 ```
 ## Result
